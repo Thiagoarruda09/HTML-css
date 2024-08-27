@@ -1,0 +1,16 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'cavaleiro' ;
+    src: url('fontes/Witcher\ Knight.ttf' format('truetype'));
+}
+body{background-image: linear-gradient(to right, #025950c1, #02735ee6,#038c3e9f);}
+
+h1{color: #034159;}
+h1#principal{ text-align: center;background-image: linear-gradient(to right,#038c3e9f, #02735ee6, #025950c1  );border-radius: 30px;
+box-shadow:10px 10px 10px #034159 ; padding-right: 1000px;}
+
+h2{color: #0CF25D;}
+
+.basico{color: black;}
+.intermediario{color: azure;}
+.avançado{color: blueviolet;}

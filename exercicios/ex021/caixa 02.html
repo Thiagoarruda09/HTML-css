@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>grouping tag</title>
+<style>
+    body
+    {background-color: dimgray;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;}
+
+    header
+    {background-color: white;
+    padding: 10px;
+    margin: 10px;}
+    
+    main 
+    {background-color: white;
+    padding: 10px;
+    margin: 10px;
+border-radius: 10px 0px;
+box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.499);}
+    
+    nav
+    {
+        box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.434);
+    background-color:dimgray}
+    
+    nav > a
+    {text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;}
+
+    nav > a:hover
+    {text-decoration: underline;}
+
+    article
+    {background-color:lightgray;
+    padding: 10px;}
+
+    article > aside
+    { background-color: rgb(165, 165, 165);}
+
+    footer
+    {background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 0px;}
+
+    footer > p{margin: 0px;}
+</style>
+</head>
+<body>
+    <header>
+        <h1>meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <p>principais noticias sobre o brasil</p>
+        </section>
+        <section>
+            <article>
+                <h2>noticias sobre esporte</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt veniam, rem exercitationem sint accusamus eveniet delectus, aperiam deleniti molestias non quo ea molestiae, architecto tenetur iusto eum totam ipsam magnam?</p>
+                <aside>escrito por josé da silva</aside>
+                </article>
+            <article>
+                <p>universidade federal de sao paulo</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>site desenvolvido por thiago arruda</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,158 @@
+@font-face {
+    font-family:'android';
+    src: url(fontes/idroid.otf) format('opentype');}
+
+ @font-face
+    {font-family:'elve' ;
+    src: url(fontes/coolvetica\ condensed\ rg.otf) format('opentype');}
+
+body
+    {background-color: #84E1AD;
+    text-align: justify;
+}
+
+header
+    {background-image: linear-gradient(to top,#217346, #84e1accb);
+    margin: -8px -10px -21px;
+    height: 158px;
+    width: auto;
+    padding: 20px 10px 20px 10px;
+    box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.411);}
+
+
+        
+
+nav > a
+   {text-decoration: none;
+    color: #84e1accb;
+    margin: 10px 10px 10px;
+    height: 118px;
+    padding: 1px 1px 1px 1px;font-family: 'elve';}
+
+.menu:hover{text-decoration: none;
+background-color:#84e1accb;
+color: white;
+border: 5px;
+transition-duration: 1s;
+padding: 3px;
+border-radius: 5px;}
+
+    
+h1
+    {text-align: left;
+    font-family:'android';
+    color: #217346;
+    margin: 22px 10px 10px 20px;}
+        
+h2
+    {font-family: 'android';
+    background-image: linear-gradient(to right,#84e1accb, white);
+    width: 800px;
+    text-align: left;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 0px 10px 10px;
+    border-radius: 10px;
+    color: #217346;}
+
+.central
+    {text-align: center;}
+    
+p
+    {font-family: 'elve';
+    text-align: justify;
+    padding: 10px 10px 10px 10px;
+    text-indent: 15px;
+    font-size: 17px;}
+
+main
+    {background-color: white;
+    width: 820px;
+    margin:auto;
+    text-align: center;
+    box-shadow: 4px 3px 7px rgba(0, 0, 0, 0.57);
+    border-radius: 0px 0px 4px 4px;
+    font-size: 20px;}
+
+h1#principal
+    {font-family:'elve';
+    font-size: 50px;
+    color: white;
+    text-align: center;}
+
+header > p
+    {color: white;}
+
+header
+    {background-color: #217346;}
+    
+.mark
+    {background-color: #84e1ac91;
+    font-style: bold ;
+    color: #217346; text-decoration: none;
+border-radius: 5px;}
+
+footer > p
+    {background: #217346;
+    margin:0px;
+    padding: 1px;
+    color: #84e1ac91;
+    text-align: center;}
+
+.caixadois > h1{font-family: 'elve';
+    background-color: #2FA866;
+font-size: 20px;
+color: white;
+padding: 1px 1px 10px 10px;
+margin: 20px 0px 1px 1px;
+border-radius: 5px;}
+
+.caixadois > p
+    {font-size: 20px;
+    margin: 1px 2px 1px 1px;}
+
+.caixadois
+    {width: 750px;
+    border-radius: 10px;
+    background-color: #C5EBD6;
+    font-size: 20px;}
+
+.caixatres
+    {background-color: #217346;
+    border-radius: 0px;}
+
+main > p
+    {font-size: 20px;}
+
+ul
+{text-align: left;}
+
+div{display: inline-block;}
+
+.esquerda
+    {width: 300px;
+    height: 100px;
+    text-align: left;
+    font-family: 'elve';}
+
+
+
+.direita
+    {width: 300px;
+    height: 100px;
+    text-align: left;
+    font-family: 'elve';}
+
+
+.linkdois > a
+{color: black;}
+
+    
+.linktres > a
+{color: black;}
+
+.mark:after{content: '\1f517';
+}
+
+main  article a{text-decoration: none;
+color: #217346;
+font-weight: bold;}

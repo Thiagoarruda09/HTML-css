@@ -1,0 +1,8 @@
+@charset "UTF-8";
+body{background-color: hsl(233, 35%, 19%);
+font-family: fantasy;font-size: 18px;
+text-align: center;}
+h1{background-color: hsla(0, 4%, 5%, 0.587);
+color: hsl(233, 28%, 45%)}
+h1{font-family: Verdana, Geneva, Tahoma, sans-serif;}
+p{font-size: 10px;}
