@@ -40,14 +40,15 @@ margin: 5px;
 padding: 5px;}
 
 main{background-color: rgba(255, 255, 255, 0.845);
-height:auto; width: 1000px;
+height:auto; max-width: 1000px;
+min-width: 500px;
 margin: auto;
 margin-top: 10px;
-padding: 1px 1px 1px 1px;
+padding: 5px 5px 5px 5px;
 text-align: center;
 border-radius: 20px 0px 20px 0px;
 
-padding: 1px 1px 1px 1px;}
+padding: 5px 5px 5px 5px;}
 
 main > h1{background-image: linear-gradient(to right, transparent, #F2BF27,black,    #F2BF27, transparent);text-align:center;
      border-radius:3px 0px 0px 3px ;
@@ -73,7 +74,8 @@ text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.633);}
 img{max-width: 70%;
 margin: 1px 1px 1px 1px;
 padding: 1px 1px 1px 1px;
-text-align: center;}
+text-align: center;
+background-size: cover;}
 
 
 
