@@ -232,7 +232,8 @@ text-decoration: none;}
 .voltarAoMenu:hover{background-color: #F2BF27;
 color: #211510;
 padding: 10px;
-border-radius: 5px;}
+border-radius: 5px;
+transition: 1s;}
 
 
 
