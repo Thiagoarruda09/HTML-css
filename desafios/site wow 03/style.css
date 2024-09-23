@@ -167,6 +167,9 @@ nav {
     border-radius: 5px;
 }
 
+.descrição02 > article:hover{background-image: none;
+transition: 1s;}
+
 .descrição02>article {
     background-color: white;
     border-top: solid 5px #F2BF27;
@@ -174,6 +177,10 @@ nav {
     border-radius: 0px 10px 0px 10px;
     margin: 5px;
     color: transparent;
+    background-image: url(imagens/cursor.png);
+    background-size: 10vh;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .crash>img {
@@ -187,6 +194,9 @@ nav {
 .descrição>div>article {
     background-color: white;
     color: transparent;
+    background-image: url(imagens/cursor.png);
+    background-size: 10vh;
+    background-position: center;
 }
 
 .descrição>div>img {
@@ -217,6 +227,10 @@ nav {
     border-radius: 10px 0px 10px 0px;
 }
 
+.camposDeBatalha:hover{box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.568);
+transition: 1s;
+border: solid 5px #F2BF27;}
+
 .camposDeBatalha>article {
     background-color: white;
     border-bottom: solid 5px #F2BF27;
@@ -224,12 +238,23 @@ nav {
     margin: 10px;
     color: transparent;
     border-radius: 10px 0px 10px 0px;
+    background-image: url(imagens/cursor02.png);
+    background-size: 10vh;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
+.camposDeBatalha > article:hover{background-image: none;}
 
 article:hover {
     color: black;
     transition: 1s;
 }
+
+.FilhoUnico{background-image: url(imagens/cursor.png);
+background-size: 10vh;
+background-repeat: no-repeat;
+background-position: center;}
 
 .descrição>article:hover {
     color: black;
@@ -238,6 +263,8 @@ article:hover {
 
 .FilhoUnico:hover {
     color: black;
+    background-image: none;
+    transition: 1s;
 }
 
 .camposDeBatalha>h2 {
@@ -322,5 +349,8 @@ transition: 1s;}
 .descrição02:hover{border: solid 5px #F2BF27;
 transition: 1s;}
 
-.Gamberr:hover{box-shadow: 5px 5px 5px black;
+.Gamberr:hover{box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.658);
+transition: 1s;}
+
+.crash:hover{box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.644);
 transition: 1s;}
