@@ -1,0 +1,246 @@
+@font-face {
+    font-family: 'fontewow';
+    src: url(fontes/Witcher\ Knight.ttf);
+}
+
+@font-face {
+    font-family: 'fontewow2';
+    src: url(fontes/A_Font_with_Serifs.ttf);
+}
+
+
+body {
+    margin: 0px;
+    background-color:rgba(0, 0, 0, 0.356)
+   
+   
+}
+
+h1{font-family: 'fontewow';
+color: #F2BF27;}
+
+h2{font-family: 'fontewow2';
+color: #F2BF27;
+margin: 0px;}
+
+
+
+header {
+background-color: black;
+    margin-bottom: 30px;
+    height: 180px;
+
+
+}
+
+#F2BF27 .menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+.menu>div {
+    text-align: center;
+}
+
+.menu>div>img {
+    width: 70vh;
+}
+
+.menu>nav>a {
+    color: #F2BF27;
+    padding-left: 5px;
+    text-decoration: none;
+}
+
+.menu>nav>a:hover {
+    background-color: #F2BF27;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.fundo01{display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin-bottom: 50px;}
+
+.fundo02{display: flex;
+flex-direction: row-reverse;
+justify-content: space-around;
+margin-bottom: 50px;}
+
+
+
+.descrição{display: flex ;
+flex-direction: column;
+justify-content: center;
+align-content: center;
+align-items: center;
+width: 400px;
+margin-top: 0px;
+background-color: black;
+height: 300px;
+border-radius: 5px;}
+
+.descrição > h2{background-color: #F2BF27;
+padding-left: 115px;
+color: black;
+padding-right: 115px;
+margin-top: 0px;
+margin-bottom: 15px;
+border-radius: 5px;}
+
+.descrição > div >article{border-top: solid 5px #F2BF27;
+border-bottom: solid 5px #F2BF27;
+border-radius: 0px 10px 0px 10px;
+color: transparent;
+margin: 5px;}
+
+.Gamberr{width: 400px;
+text-align: center;
+background-color: black;
+border-radius: 5px;}
+
+.crash{width: 400px;
+text-align: center;
+background-color: black;
+border-radius: 5px;}
+
+.descrição02{display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 400px;
+    margin-top: 0px;
+    background-color: black;
+    height: 300px;
+border-radius: 5px;}
+
+    .descrição02 > div >img{width: 40vh;}
+
+    .descrição02 >div{align-items: center;
+    justify-content: center;
+text-align: center;}
+
+    .descrição02 >div >h2{background-color: #F2BF27;
+        background-color: #F2BF27;
+        padding-left: 115px;
+        color: black;
+        padding-right: 115px;
+        margin-top: 0px;
+        margin-bottom: 15px;
+    border-radius: 5px;}
+
+    .descrição02 > article{background-color: white;
+    border-top: solid 5px #F2BF27;
+border-bottom: solid 5px #F2BF27;
+border-radius: 0px 10px 0px 10px;
+margin: 5px;
+color: transparent;}
+
+.crash > img{width:70vh;}
+
+.Gamberr > img{width: 70vh;}
+
+.descrição > div> article{background-color: white;
+color: transparent;}
+
+.descrição > div > img{width: 40vh;}
+
+.fundo03{display: flex;
+    margin-top: 30px;
+flex-direction: row;
+justify-content: space-around;
+margin-bottom: 50px;}
+
+.fundo03 > div{width: 300px;}
+
+.camposDeBatalha > img{width: 50vh;
+text-align: center;
+margin-left: 5px;}
+
+.camposDeBatalha{background-color: black;
+height: 350px;
+border-radius: 10px 0px 10px 0px;}
+
+.camposDeBatalha > article{background-color: white;
+border-bottom: solid 5px #F2BF27;
+border-top: solid 5px #F2BF27;
+margin: 10px;
+color: transparent;
+border-radius: 10px 0px 10px 0px;}
+
+article:hover{color: black;
+transition: 1s;}
+
+.descrição > article:hover{color: black;
+transition: 1s;}
+
+.FilhoUnico:hover{color: black;}
+
+.camposDeBatalha > h2{color: #F2BF27;
+text-align: center;}
+
+.fundo04{display: flex;
+flex-direction: row;
+justify-content: space-between;
+background-color: black;
+margin-bottom: 50px;
+padding: 30px;
+padding-top: 0px;
+padding-bottom: 0px;
+border-top:solid 5px #F2BF27 ;
+border-bottom: solid 5px #F2BF27;}
+
+.fundo04 {background-image: url(imagens/capa3wow.jpeg);
+height: 360px;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;}
+
+.videos{display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin-bottom: 40px;}
+
+.videosBg{width: 90vh;
+display: none;}
+
+.cliqueAqui:hover>.videosBg{display: block;
+transition: 4s;
+background-color: white;}
+
+.cliqueAqui{background-color: black;
+color: #F2BF27;
+font-size: 25px;
+font-family: 'fontewow2';
+padding: 10px;
+border-radius: 10px 0px 10px 0px;}
+
+.divVideos{background-color: black;
+text-align: center;
+margin-top: 20px;
+border-radius: 10px 0px 10px 0px;}
+
+.divVideos > h2{padding: 5px;}
+
+
+footer{background-color: black;
+color: #F2BF27;
+text-align: center;
+padding: 10px;}
+
+
+
